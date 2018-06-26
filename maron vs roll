@@ -1,0 +1,36 @@
+import random
+
+roll = random.randint(1,6)
+
+if roll==1:
+    print ("rollno is ",roll)
+elif roll==2:
+    print("rollno is",roll)
+elif roll==3:
+    print("rollno is",roll)
+elif roll==4:
+    print("rollno is",roll)
+elif roll==5:
+    print("rollno is",roll)
+else:
+    print("rollno is",roll)
+    
+maron = random.randint(1,6)
+
+if maron==1:
+    print ("maron is",maron)
+elif maron==2:
+    print("maron no is",maron)
+elif maron==3:
+    print("maron no is",maron)
+elif  maron==4:
+    print("maron no is",maron)
+elif maron==5:
+    print("maron no is",maron)
+else:
+    print("maron no is",maron)
+    
+if(maron>roll):
+    print ("maron wins")
+else:
+    print("roll wins")
